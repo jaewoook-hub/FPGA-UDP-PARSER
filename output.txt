@@ -1,0 +1,35 @@
+ADVANCED DIGITAL SYSTEM DESIGN WITH FPGAS
+
+CATALOG DESCRIPTION: This course covers the systematic design of advanced digital systems using field-programmable gate arrays (FPGAs). The emphasis is on top-down design starting with a software application, and translating it to high-level models using a hardware description language (such as VHDL or Verilog). The course will focus on design for high-performance computing applications using streaming architectures. We will first review in detail the basic building blocks of FPGA programming. Second, we focus on architecture, design methodologies, best design practices, and optimization techniques for performance (frequency, latency, area, power, etc). Finally, we will cover testbench development, simulation for bit-true design verification, and synthesis of complete digital systems. 
+RECOMMENDED TEXTBOOKS: The Designer’s Guide to VHDL, Peter J. Ashenden; HDL Chip Design, Douglas J. Smith; Advanced FPGA Design Architecture, Implementation, and Optimization, Steve Kilts
+REFERENCE TEXTS: Online material and examples
+COURSE GOALS: To introduce students to advanced design methodologies and practical design approaches for high-performance FPGA applications. Students will design and implement a complete sophisticated digital system application on an FPGA, simulating and verifying the design with testbenches, and synthesizing and implementing these designs with FPGA development boards including interfacing to external devices. The course will focus on translating software models of digital signal processing applications, such as filters, radios, and image processing algorithms into optimized streaming architectures in hardware. Students will also learn sophisticated optimization techniques for streaming applications, FIFO and memory architectures, finite state machines, and various optimizations to drive performance. In the end, students will understand how to design and compare performance results between different design implementations.
+PRE-REQUISITES : EECS 303, 355 or equivalent HDL experience.
+DETAILED COURSE TOPICS
+Week 1: System-level architecture design for FPGAs. Review VHDL programming basics. 
+Week 2: Synthesizable VHDL, synchronous and asynchronous processes, finite state machines, and memory.
+Week 3: Practical testbench design, performance testing
+Week 4: Design optimizations and performance comparison
+Week 5: FIFOs and streaming architectures 
+Week 6-8: Design, optimize, simulate, and analyze performance for a digital application
+Week 9-10:  FPGA synthesis and iterative performance optimizations
+COMPUTER USAGE: Students may be expected to be comfortable with Sun/UNIX platform to run and manage Computer Aided Design projects with simulation and synthesis tools. Students can download Xilinx and Altera tools for free online.
+LABORATORY PROJECTS: Course is project oriented. Students will gain experience writing hardware designs in VHDL and optimizing them through various techniques. Each component will be independently tested through simulation and pieced together to create an entire hardware application. 
+GRADES: Grades will be based on weekly programming assignments, final project, and final report.
+COURSE OBJECTIVES: When a student completes this course, s/he should be able to:
+1.	Translate a software application into hardware logic for FPGA architectures
+
+2.	Design synthesizable VHDL systems based on industry-standard coding methods.
+
+3.	Optimize logic for various performance goals (timing, frequency, area, and power).
+
+4.	Build testbenches and create data models to verify bit-true accurate designs.
+
+5.	Design streaming architectures for high-performance computing applications.
+
+6.	Calculate throughput, resource allocation, and other performance metrics.
+
+7.	Simulate and compare performance results between different optimizations.
+
+8.	Utilize commercial FPGA development tools for compilation, simulation, and synthesis.
+

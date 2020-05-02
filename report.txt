@@ -1,0 +1,6 @@
+Total logic elements : 2917
+Total registers : 287
+Memory bits : 25,600
+Multipliers : 0 
+Pins : 26
+Total simulation cycle count : 8148
